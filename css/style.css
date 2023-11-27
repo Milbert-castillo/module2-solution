@@ -1,0 +1,45 @@
+/* Base Style */
+* {
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+h1 {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+/* Simple Responsive Framework */
+.row {
+  width: 100%;
+}
+
+/* For Desktop Devices only */
+@media (min-width: 992px) {
+  .col-lg-1,
+  .col-lg-2,
+  .col-lg-3 {
+    float: left;
+    border: 2px solid black;
+  }
+  .col-lg-1 {
+    width: 33.33%;
+  }
+  .col-lg-2 {
+    width: 33.33%;
+  }
+  .col-lg-3 {
+    width: 33.33%;
+  }
+}
+
+/* For Tablet Devices only */
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1,
+  .col-md-2,
+  .col-md-3 {
+    float: left;
+    border: 1px;
+  }
+}
+
+/* For Mobile Devices only   */
