@@ -1,7 +1,7 @@
 /* Base Style */
 * {
   box-sizing: border-box;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: sans-serif;
 }
 
 body {
@@ -12,7 +12,7 @@ h1 {
   margin-bottom: 15px;
   text-align: center;
   font-size: 50px;
-  color: teal;
+  color: rgb(0, 70, 128);
 }
 
 section {
@@ -41,6 +41,7 @@ div {
   margin-bottom: auto;
 }
 
+/* Sub heading */
 .sub1 {
   float: right;
   width: 100px;
@@ -50,7 +51,7 @@ div {
   text-align: center;
   font-size: 125%;
   font-weight: bold;
-  background-color: #FFB6C1;
+  background-color: #1bb547;
 
 }
 
@@ -64,7 +65,7 @@ div {
   text-align: center;
   font-size: 125%;
   font-weight: bold;
-  background-color: #FF0000;
+  background-color: black;
 
 }
 
@@ -78,10 +79,11 @@ div {
   text-align: center;
   font-size: 125%;
   font-weight: bold;
-  background-color: rgb(223, 212, 121);
+  background-color: rgb(223, 121, 206);
 
 }
 
+/* Contents */
 .content {
   padding: 5px;
   border: none;
