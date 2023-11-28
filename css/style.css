@@ -12,7 +12,7 @@ h1 {
   margin-bottom: 15px;
   text-align: center;
   font-size: 50px;
-  color: rgb(0, 70, 128);
+  color: rgb(20, 85, 139);
 }
 
 section {
@@ -41,7 +41,7 @@ div {
   margin-bottom: auto;
 }
 
-/* Sub heading */
+/* Sub headings */
 .sub1 {
   float: right;
   width: 100px;
